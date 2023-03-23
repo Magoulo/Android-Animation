@@ -17,21 +17,31 @@
         android:text="API Animation Experiment"
         android:textSize="36sp"
         android:textStyle="bold|normal"
-        app:layout_constraintBottom_toTopOf="@+id/apiAnimationStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    //Animation widget here?
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/apiAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/apiAnimationStartBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_url="https://lottie.host/49b79bae-69ee-467e-99db-c9d6d720d23b/OXC8rEfBrh.json"
+       />
 
     <Button
         android:id="@+id/apiAnimationStartBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="200dp"
         android:width="220dp"
         android:height="90dp"
+        android:layout_marginBottom="80dp"
         android:fontFamily="cursive"
         android:text="Start Experiment"
         android:textColor="@color/white"
@@ -39,7 +49,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
