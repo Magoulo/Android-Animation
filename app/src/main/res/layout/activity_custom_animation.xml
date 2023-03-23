@@ -24,14 +24,14 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/customAnimationView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/customAnimationStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:lottie_autoPlay="false"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/cat"/>
+        app:lottie_rawRes="@raw/star"/>
 
     <Button
         android:id="@+id/customAnimationStartBtn"

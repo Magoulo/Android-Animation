@@ -14,7 +14,7 @@ class ApiAnimationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_api_animation)
 
-        LottieAnimationView = findViewById(R.id.customAnimationView)
+        LottieAnimationView = findViewById(R.id.apiAnimationView)
         startApiAnimationBtn = findViewById(R.id.apiAnimationStartBtn)
 
         var isPlaying = false;

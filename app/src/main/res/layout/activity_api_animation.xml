@@ -24,14 +24,14 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/apiAnimationView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/apiAnimationStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:lottie_autoPlay="false"
         app:lottie_loop="true"
-        app:lottie_url="https://lottie.host/49b79bae-69ee-467e-99db-c9d6d720d23b/OXC8rEfBrh.json"
+        app:lottie_url="https://assets4.lottiefiles.com/datafiles/0BklE7L1HhdHa4v/data.json"
        />
 
     <Button
