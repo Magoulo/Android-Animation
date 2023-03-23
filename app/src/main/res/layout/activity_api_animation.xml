@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ApiAnimationActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -15,46 +14,32 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="22dp"
         android:fontFamily="cursive"
-        android:text="Animation Experiment"
-        android:textSize="40sp"
+        android:text="API Animation Experiment"
+        android:textSize="36sp"
         android:textStyle="bold|normal"
-        app:layout_constraintBottom_toTopOf="@+id/apiAnimationBtn"
+        app:layout_constraintBottom_toTopOf="@+id/apiAnimationStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    //Animation widget here?
+
     <Button
-        android:id="@+id/apiAnimationBtn"
+        android:id="@+id/apiAnimationStartBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="200dp"
         android:width="220dp"
         android:height="90dp"
         android:fontFamily="cursive"
-        android:text="API"
+        android:text="Start Experiment"
         android:textColor="@color/white"
-        android:textSize="36sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/customAnimationBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:width="220dp"
-        android:height="90dp"
-        android:fontFamily="cursive"
-        android:text="CUSTOM"
-        android:textColor="@color/white"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apiAnimationBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
