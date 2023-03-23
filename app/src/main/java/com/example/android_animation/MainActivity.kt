@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         customAnimationBtn.setOnClickListener{
             startActivity(
                 Intent(this,
-                    ApiAnimationActivity::class.java)
+                    CustomAnimationActivity::class.java)
             )
         }
     }
