@@ -15,7 +15,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="22dp"
         android:fontFamily="cursive"
-        android:text="Animation Experiment"
+        android:text="@string/mainActivityTitle"
         android:textSize="40sp"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toTopOf="@+id/apiAnimationBtn"
