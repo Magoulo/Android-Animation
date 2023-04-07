@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/blue_rectangle" />
+    <item android:drawable="@drawable/purple_rectangle" />
+    <item android:drawable="@drawable/red_rectangle" />
+    <item android:drawable="@drawable/yellow_rectangle" />
+    <item android:drawable="@drawable/green_rectangle" />
+</transition>

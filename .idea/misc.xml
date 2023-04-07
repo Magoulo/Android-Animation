@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/blackline.xml" value="0.2365" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/blue_rectangle.xml" value="0.211" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/color_changing_rectangle.xml" value="0.211" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/color_transition.xml" value="0.211" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/green_rectangle.xml" value="0.211" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/purple_rectangle.xml" value="0.211" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/rectangle.xml" value="0.2365" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/red_rectangle.xml" value="0.211" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/drawable/yellow_rectangle.xml" value="0.211" />
         <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/layout/activity_api_animation.xml" value="0.1" />
         <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/layout/activity_api_animation_screen.xml" value="0.2672239108409321" />
-        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/layout/activity_custom_animation.xml" value="0.1" />
+        <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/layout/activity_custom_animation.xml" value="0.33" />
         <entry key="..\:/Users/tim91/AndroidStudioProjects/AndroidAnimation/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>

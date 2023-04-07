@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/blue_rectangle"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/purple_rectangle"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/red_rectangle"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/yellow_rectangle"
+        android:duration="500" />
+    <item
+        android:drawable="@drawable/green_rectangle"
+        android:duration="500" />
+</animation-list>
