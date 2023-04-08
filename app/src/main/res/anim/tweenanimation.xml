@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<set xmlns:android="http://schemas.android.com/apk/res/android"
-   >
-
+<set xmlns:android="http://schemas.android.com/apk/res/android">
 
 
     <!-- Position -->
     <translate
         android:duration="1000"
-        android:fromYDelta="-50%"
-        android:toYDelta="64%"
-        android:interpolator="@android:anim/linear_interpolator" />
+        android:fromYDelta="-45%"
+        android:toYDelta="55%"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
     <translate
         android:duration="200"
         android:fromYDelta="0%"
         android:toYDelta="0%"
         android:startOffset="1000"
-        android:interpolator="@android:anim/linear_interpolator" />
+        />
     <translate
-        android:duration="800"
-        android:fromYDelta="0%"
-        android:toYDelta="-20%"
-        android:startOffset="1200"
-        android:interpolator="@android:anim/linear_interpolator"/>
-    <translate
-        android:duration="200"
-        android:fromYDelta="0%"
-        android:toYDelta="0%"
-        android:startOffset="2000"
-        android:interpolator="@android:anim/linear_interpolator" />
-    <translate
-        android:duration="800"
-        android:fromYDelta="0%"
-        android:toYDelta="9%"
-        android:startOffset="2200"
-        android:interpolator="@android:anim/linear_interpolator"/>
-    <translate
-        android:duration="1000"
-        android:fromYDelta="0%"
-        android:toYDelta="0%"
-        android:startOffset="3000"
-        android:interpolator="@android:anim/linear_interpolator"/>
+       android:duration="800"
+       android:fromYDelta="0%"
+       android:toYDelta="-34%"
+       android:startOffset="1200"
+       />
+   <translate
+       android:duration="200"
+       android:fromYDelta="0%"
+       android:toYDelta="0%"
+       android:startOffset="2000"
+        />
+   <translate
+       android:duration="800"
+       android:fromYDelta="0%"
+       android:toYDelta="32%"
+       android:startOffset="2200"
+       />
+   <translate
+       android:duration="1000"
+       android:fromYDelta="0%"
+       android:toYDelta="0%"
+       android:startOffset="3000"
+       />
 
-     <!-- Scale -->
+  <!--  Scale -->
+    <!-- 1st -->
     <scale
         android:duration="400"
         android:fromYScale="1.0"
@@ -53,91 +52,100 @@
         android:pivotX="50%"
         android:pivotY="100%"
         />
+    <!-- 2nd -->
     <scale
         android:duration="400"
         android:fromYScale="1.0"
-        android:toYScale="0.6"
+        android:toYScale="1.17"
         android:fromXScale="1.0"
-        android:toXScale="1.4"
+        android:toXScale="0.75"
         android:pivotX="50%"
         android:pivotY="100%"
         android:startOffset="400"
         />
   <!-- At the bottom -->
+    <!-- 3rd -->
     <scale
         android:duration="200"
         android:fromYScale="1.0"
-        android:toYScale="0.6"
+        android:toYScale="0.285"
         android:fromXScale="1.0"
-        android:toXScale="2.0"
+        android:toXScale="2.67"
         android:pivotX="50%"
-        android:pivotY="100%"
+        android:pivotY="106%"
         android:startOffset="800"
        />
-    <!-- Moving up -->
+    <!-- Moving up  (Change pivotY to 108% to move the box up a bit)-->
+    <!-- 4th -->
     <scale
         android:duration="400"
         android:fromYScale="1.0"
-        android:toYScale="2.1"
+        android:toYScale="2.0"
         android:fromXScale="1.0"
-        android:toXScale="0.45"
+        android:toXScale="0.75"
         android:pivotX="50%"
-        android:pivotY="100%"
+        android:pivotY="108.8%"
         android:startOffset="1000"
         />
+    <!-- 5th -->
     <scale
         android:duration="600"
         android:fromYScale="1.0"
-        android:toYScale="1.2"
+        android:toYScale="1.25"
         android:fromXScale="1.0"
-        android:toXScale="0.8"
+        android:toXScale="0.67"
         android:pivotX="50%"
         android:pivotY="100%"
         android:startOffset="1400"
         />
   <!-- 50% and 5% to top -->
+    <!-- 6th -->
     <scale
         android:duration="200"
         android:fromYScale="1.0"
-        android:toYScale="0.6"
+        android:toYScale="0.7"
         android:fromXScale="1.0"
-        android:toXScale="1.4"
+        android:toXScale="1.49"
         android:pivotX="50%"
         android:pivotY="100%"
         android:startOffset="2000"
         />
  <!--  On it's way down -->
+    <!-- 7th -->
     <scale
         android:duration="800"
         android:fromYScale="1.0"
-        android:toYScale="1.5"
+        android:toYScale="1.72"
         android:fromXScale="1.0"
-        android:toXScale="0.7"
+        android:toXScale="0.75"
         android:pivotX="50%"
-        android:pivotY="100%"
+        android:pivotY="102%"
         android:startOffset="2200"
         />
+    <!-- 8th -->
     <scale
         android:duration="200"
         android:fromYScale="1.0"
-        android:toYScale="0.8"
+        android:toYScale="0.5"
         android:fromXScale="1.0"
-        android:toXScale="1.4"
+        android:toXScale="1.56"
         android:pivotX="50%"
-        android:pivotY="100%"
+        android:pivotY="108%"
         android:startOffset="3000"
         />
    <!--  Reaching the bottom -->
+    <!-- 9th -->
     <scale
         android:duration="400"
         android:fromYScale="1.0"
-        android:toYScale="1.2"
+        android:toYScale="1.66"
         android:fromXScale="1.0"
-        android:toXScale="0.8"
+        android:toXScale="0.71"
         android:pivotX="50%"
-        android:pivotY="100%"
+        android:pivotY="108%"
         android:startOffset="3200"
         />
+    <!-- 10th -->
     <scale
         android:duration="400"
         android:fromYScale="1.0"
@@ -148,7 +156,6 @@
         android:pivotY="100%"
         android:startOffset="3600"
          />
-
 </set>
 
 
