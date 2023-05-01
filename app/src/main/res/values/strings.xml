@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Android-Animation</string>
     <string name="mainActivityTitle">Animation Experiment</string>
-    <string name="CustomAnimationActivityTitle">Custom Animation Experiment</string>
-    <string name="ApinimationActivityTitle">Api Animation Experiment</string>
+    <string name="CustomAnimationActivityTitle">Android Custom Animation</string>
+    <string name="ApinimationActivityTitle">Android Api Animation</string>
 </resources>

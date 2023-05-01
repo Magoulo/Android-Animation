@@ -7,7 +7,7 @@
     <!-- Position -->
     <translate
         android:duration="1000"
-        android:fromYDelta="-45%"
+        android:fromYDelta="-32%"
         android:toYDelta="55%"
         android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
     <translate

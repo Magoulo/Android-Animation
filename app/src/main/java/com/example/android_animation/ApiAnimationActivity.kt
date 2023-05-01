@@ -17,6 +17,9 @@ class ApiAnimationActivity : AppCompatActivity() {
         LottieAnimationView = findViewById(R.id.apiAnimationView)
         startApiAnimationBtn = findViewById(R.id.apiAnimationStartBtn)
 
+        val repeatCount = 14
+        LottieAnimationView.repeatCount = repeatCount
+
         var isPlaying = false;
         startApiAnimationBtn.setOnClickListener{
 

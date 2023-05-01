@@ -22,15 +22,16 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/apiAnimationView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toTopOf="@+id/apiAnimationStartBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:lottie_autoPlay="false"
         app:lottie_loop="true"
-        app:lottie_url="https://assets4.lottiefiles.com/datafiles/0BklE7L1HhdHa4v/data.json"
+        app:lottie_rawRes="@raw/lottie_animation"
        />
 
     <Button
